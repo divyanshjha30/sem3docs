@@ -1,5 +1,3 @@
-hiiiii
-
 #include <iostream> 
 using namespace std; 
 struct student
@@ -8,7 +6,8 @@ struct student
     char Name[40];
     char Course[50]; 
     void get_data(){
-        cout<<"Enter Roll no, Name and course:\n"; cin>>Roll_No>>Name>>Course;
+        cout<<"Enter Roll no, Name and course:\n"; 
+        cin>>Roll_No>>Name>>Course;
     }
     void display()
     {  
@@ -26,5 +25,3 @@ int main() {
     S1.display(); 
     return 0;
 }
-
-hello
