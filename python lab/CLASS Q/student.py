@@ -1,0 +1,12 @@
+name = input("Enter your name: ")
+clas = input("Enter your class: ")
+sub1 = int(input("Enter your marks of subject 1: "))
+sub2 = int(input("Enter your marks of subject 2: "))
+sub3 = int(input("Enter your marks of subject 3: "))
+avg = (sub1+sub2+sub3)/3
+print("Name = ",name)
+print("Class = ",clas)
+print("Subject 1 = ",sub1)
+print("Subject 2 = ",sub2)
+print("Subject 3 = ",sub3)
+print("Avg marks = ",avg)
