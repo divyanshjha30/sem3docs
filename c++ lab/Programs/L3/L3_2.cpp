@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
-class circle
-{
+class circle{
 private:
     float radius;
 public:
@@ -15,19 +14,14 @@ public:
         cout<<"The circle with radius = "<<radius<<", has area = "<<radius*radius*3.14<<"."<<endl;
     }
 };
-
-circle::circle()
-{
+circle::circle(){
     radius = 0;
 }
-
-circle::circle(float a)
-{
+circle::circle(float a){
     radius = a;
 }
-
 int main(){
-    circle c1,c2(6.9);
+    circle c1,c2(9.6);
     c1.getdata();
     c1.display();
     c2.display();

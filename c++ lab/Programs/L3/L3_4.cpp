@@ -1,13 +1,13 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
-
 class student{
     char name[50];
     char course[50];
     int phone;
     public:
     student();
+    ~student();
     void getdata(){
         cout<<"Enter the name, course and phone number: "<<endl;
         cin>>name>>course>>phone;
@@ -21,9 +21,12 @@ student::student(){
     strcpy(course,"abc");
     phone = 100;
 }
+student::~student(){
+    
+    cout<<"\nDestructor called here";
+}
 
 int main(){
-    char name[50] = "djboi";
     student s1;
     s1.getdata();
     s1.display();

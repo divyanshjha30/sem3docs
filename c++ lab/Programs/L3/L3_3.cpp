@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
-class calc
-{
+class calc{
     float radius,base,height;
     public:
     calc(){
