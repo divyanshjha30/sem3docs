@@ -1,12 +1,12 @@
-str1 = input("Enter your first string: ")
-str2 = input("Enter your second string: ")
-
-print("String 1 before swapping: ",str1)
-print("String 2 before swapping: ",str2)
-
-str1 = str1+str2
-str2 = str1[0 : (len(str1) - len(str2))]
-str1 = str1[len(str2) : ]
-
-print("String 1 after swapping: ",str1)
-print("String 2 after swapping: ",str2)
+def fact(n):
+   if n == 1:
+       return n
+   else:
+       return n*fact(n-1)
+num = int(input("Enter a number: "))
+if num < 0:
+   print("Sorry, factorial does not exist for negative numbers")
+elif num == 0:
+   print("The factorial of 0 is 1")
+else:
+   print("The factorial of", num, "is", fact(num))
