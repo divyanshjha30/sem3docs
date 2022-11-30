@@ -5,39 +5,39 @@ class Complex{
     float img;
     public:
         Complex(int r=0, int i=0):real(r), img(i){}
-        friend Complex operator + (Complex obj, Complex obj2);
-        friend Complex operator - (Complex obj, Complex obj2);
-        friend Complex operator * (Complex obj, Complex obj2);
-        friend Complex operator / (Complex obj, Complex obj2);
+        Complex operator + (Complex obj);
+        Complex operator - (Complex obj);
+        Complex operator * (Complex obj);
+        Complex operator / (Complex obj);
         void display();
 };
-Complex operator + (Complex obj, Complex obj2)
+Complex Complex::operator + (Complex obj)
 {
     Complex temp;
-    temp.real = obj.real + obj2.real;
-    temp.img = obj.img + obj2.img;
+    temp.real = real + obj.real;
+    temp.img = img + obj.img;
     return temp;
     
 }
-Complex operator - (Complex obj, Complex obj2)
+Complex Complex::operator - (Complex obj)
 {
     Complex temp;
-    temp.real = obj.real - obj2.real;
-    temp.img = obj.img - obj2.img;
+    temp.real = real - obj.real;
+    temp.img = img - obj.img;
     return temp;
 }
-Complex operator * (Complex obj, Complex obj2)
+Complex Complex::operator * (Complex obj)
 {
     Complex temp;
-    temp.real = obj.real*obj2.real-obj.img*obj2.img;
-    temp.img = obj.real*obj2.img + obj.img*obj2.real;
+    temp.real = real*obj.real-img*obj.img;
+    temp.img = real*obj.img + img*obj.real;
     return temp;
 }
-Complex operator / (Complex obj, Complex obj2)
+Complex Complex::operator / (Complex obj)
 {
     Complex temp;
-    temp.real = (obj.real*obj2.real + obj.img*obj2.img)/(obj2.real*obj2.real + obj2.img*obj2.img);
-    temp.img = (obj.img*obj2.real - obj.real*obj2.img)/(obj2.real*obj2.real + obj2.img*obj2.img);
+    temp.real = (real*obj.real + img*obj.img)/(obj.real*obj.real + obj.img*obj.img);
+    temp.img = (img*obj.real - real*obj.img)/(obj.real*obj.real + obj.img*obj.img);
     return temp;
 }
 void Complex::display()
@@ -46,7 +46,7 @@ void Complex::display()
 }
 int main()
 {
-    Complex obj1(4,5), obj2(1,2);
+    Complex obj1(5,6), obj2(2,3);
     cout<<"Object 1: ";
     obj1.display();
     cout<<"Object 2: ";
