@@ -1,0 +1,62 @@
+Slide 1:
+Goodmorning everyone
+I am divyansh and i Welcome you all to my presentation on the topic.
+
+Slide 2:
+Crosss-Functional Teams
+
+Slide 3:
+Now before we talk about CFT's
+Let me give the introduction
+Traditional organizational configurations often consist of a hierarchical structure, 
+with a top-down approach to management and each department tackling a specific area.
+While this approach has its benefits,
+it can also result in unanticipated inefficiencies and a silo approach to conducting business.
+The solution to the problem? Cross functional teams within the organization. While most departments are organized by expertise and purpose, cross functional teams are groups of people with different viewpoints and expertise who collaborate to achieve a common objective.
+
+Slide 4:
+Cross functional teams are groups of people from various departments in an organization—such as marketing, product development, quality assurance, sales and finance—who work together to achieve a common goal.
+Oftentimes, cross functional teams are organized to complete a specific project,
+but they can also be created with a more ongoing purpose.
+
+Slide 5:
+Cross functional teams break through the “silos” of a traditional organizational structure so that the team can see the big picture.
+By working with members who have varying viewpoints, expertise and backgrounds, the collective team can more efficiently tackle problems and achieve the goals of a project. 
+They can also anticipate hurdles earlier in the process because each department has input throughout the process, rather than a project moving from department to department.
+
+Slide 6:
+There are a few cons to cross functional teams.
+For instance, some experts warn that they can limit the professional growth of individual members because they are focused on achieving the goals of a specific project.
+To prevent this, some organizations institute limited terms for group members,
+with members from the various departments rotating into and out of the team to prevent stagnation.
+
+Another risk is that if a project is too broad or poorly defined,
+cross functional teams can flounder aimlessly.
+And if the organization doesn’t create effective compensation systems,
+team members can become disgruntled.
+These potential downsides can be minimized with careful planning, however, such as instituting an agile project management framework.
+
+Slide 7:
+In order to create an effective Cross-Functional Team we need to make sure of the following points.
+-Ensuring Diversity within the team
+-Including influencers
+-Setting clear goals for the cross-functional team
+-reinforcing the teams authority and discouraging hierarchies
+-encouraging positive and healthy conflict resolution.
+
+Slide 8:
+So the bottom line is,
+An organisation may already be using a CFT without realising it
+this can be detected by looking at the way the departments work with each other
+if there are informal cross functional teams popping up organically,
+the organisatioons may want to be more intentional about them.
+And if an organisation isnt already using a CFT, Then it definitely should.
+
+Slide 9:
+That's it from my side.
+
+
+
+
+
+***The end***

@@ -1,0 +1,37 @@
+Slide 1:
+
+Goodmorning everyone
+and welcome to my presentation on the topic
+
+
+Slide 2:
+
+LRC and VRC
+which are error detection methods used in networking
+
+Slide 3:
+
+Error detection methods include
+CRC
+VRC
+LRC
+and Checksum
+
+But in this presentation we will talk about LRC and VRC
+
+
+Slide 4:
+
+LRC is Longitudinal Rdundancy check
+In this error detection method, a block of bits are organized in a table (of rows and columns). For example, instead of sending block of 32 bits, first it is organized into four rows and eight columns. Then parity bits for each column is calculated and new row of eight parity bits is formed. These eight parity bits are appended to original data before transmission.
+
+
+Slide 5:
+
+VRC is Vertical Redundancy Check
+In this error detection technique, a redundant bit called parity bit is appended to every data unit so that total number of 1's in the unit (including parity bit) becomes even. The system now transmits entire extended unit across the network link. At the receiver, all eight received bits are checked through even parity checking function. If it counts even 1's data unit passes. If it counts odd number of 1's, it means error has been introduced in the data somewhere. Hence receiver rejects the whole data unit. Similar way odd parity VRC can also be implemented. In this method, total number of 1's in should be odd before transmission.
+
+
+Slide 6:
+
+And that is all for this presentation.
