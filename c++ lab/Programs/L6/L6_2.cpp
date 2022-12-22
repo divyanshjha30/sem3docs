@@ -64,10 +64,11 @@ int main()
     cin>>n;
     for(c = 0; c < n; c++)
     {
+        cout<<"\nChoice for shape\n1. For Circle\n
+        2. For Square\nEnter choice: ";
+        cin>>ch;
         cout<<"\nEnter Dimension: ";
         cin>>dim;
-        cout<<"\nChoice for shape\n1. For Circle\n2. For Square\nEnter choice: ";
-        cin>>ch;
         switch (ch)
         {
         case 1:
@@ -89,3 +90,4 @@ int main()
     }
     return 0;
 }
+
