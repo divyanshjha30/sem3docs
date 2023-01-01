@@ -1,25 +1,24 @@
-def concat():
-    str1 = input("Enter the first string: ")
-    str2 = input("Enter the second string: ")
-    print(str1+str2)
-
-def split():
-    str1 = input(Enter the string: )
-    print(str1.splitlines)
-
-while(1):
-    print("Welcome to fun with strings!")
-    print("0. Exit\n1. Concatenate\n2. Split\n3. Capitalise\n4. Lower\n5. Palindrome")
-    ch = input("Enter your choice: ")
-    if(ch==0):
-        exit
-    elif(ch==1):
-        concat()
+def concate(str1,str2):
+    return str1+str2
+def check_same(str1,str2):
+    return str1==str2
+def check_len(str1,str2):
+    return len(str1)==len(str2)
+str1 = input("Enter 1st string:")
+str2 = input("Enter 2nd string:")
+ch = 1
+while(ch!=0):
+    print("Enter the choice of Operation:")
+    print("1->Concate")
+    print("2->Check Similarity")
+    print("3->Check length equality")
+    print("0->Exit")
+    ch = int(input())
+    if(ch==1):
+        print(concate(str1,str2))
     elif(ch==2):
-        split()
+        print("Strings are same:",check_same(str1,str2))
     elif(ch==3):
-        cap()
-    elif(ch==4):
-        low()
-    elif(ch==5):
-        palin()
+        print("Strigs have equal length:",check_len(str1,str2))
+    elif(ch==0):
+        exit()
